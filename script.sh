@@ -1,3 +1,13 @@
+if [ "$1" == "-h" ] || [ "$1" == "--help" ]
+then
+echo "Info: Pham Duc Hai"
+echo "      DH Cong nghe - DHQGHN"
+echo "      phamduchai@gmail.com"
+echo "      0123456789"
+echo "usage nwcfg [OPTIONS]"
+echo "      OPTIONS: --help -help show help"
+echo "               ....."
+fi
 while read -ra line;
 do 
     for word in "${line[@]}";
